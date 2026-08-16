@@ -1,280 +1,104 @@
 # The AI Production Gap
-## 📄 Full Publication
-
-Read the complete publication:
-
-[Download / View the AI Production Gap](./publication/AI-Production-Gap.pdf)
 
 ## From AI Pilots to Production-Grade Systems
 
-An AI engineering and enterprise consultancy framework for selecting, designing, evaluating, deploying and governing AI systems that create measurable operational value.
-
-**Author:** Oyebowale Anthony  
-**Role:** AI Engineer & AI Engineering Consultant  
-**Publication:** Consultancy Insight Series  
-**Date:** August 2026
+An AI engineering and enterprise consultancy framework for selecting, designing, evaluating, deploying and governing AI systems that create measurable business value.
 
 ---
 
 ## Overview
 
-The AI Production Gap examines the gap between experimenting with AI and successfully operating AI systems in production.
+The AI Production Gap examines the difference between experimenting with AI and successfully operating AI systems in production.
 
-The central argument is simple:
+AI adoption is becoming mainstream, but operational maturity is not.
 
-> AI adoption is becoming mainstream, but operational maturity is not.
+Organizations can successfully build prototypes and run AI pilots without having the engineering, operational and governance capabilities required to operate those systems reliably at scale.
 
-The challenge for organizations is no longer simply accessing powerful AI models. The greater challenge is converting AI capability into dependable, measurable and governable business systems.
-
-This publication presents a practical framework for addressing that challenge.
+This publication examines the practical considerations involved in moving from experimentation to production.
 
 ---
 
-## Core Consulting Framework
+## The Production Gap
 
-The framework follows six stages:
+The transition from an AI pilot to a production system introduces challenges across several areas:
 
-1. **Diagnose** — Identify the right business problem and workflow.
-2. **Design** — Select the appropriate AI architecture.
-3. **Engineer** — Build the workflow and supporting systems.
-4. **Evaluate** — Measure performance against real cases.
-5. **Govern** — Define permissions, autonomy and control boundaries.
-6. **Operate** — Monitor, improve and sustain the system after deployment.
-
-The objective is not maximum autonomy.
-
-The objective is:
-
-> The highest level of useful autonomy that the business can reliably control and economically justify.
-
----
-
-## Key Areas Covered
-
-### 1. Enterprise AI Value Gap
-
-The publication examines why widespread AI adoption does not automatically translate into enterprise-level business value.
-
-The focus shifts from:
-
-**"Can AI do this?"**
-
-to:
-
-**"How do we scale this responsibly?"**
-
----
-
-### 2. AI Use-Case Prioritization
-
-AI opportunities should begin with business workflows rather than technology selection.
-
-The framework considers:
-
-- Business impact
-- Workflow frequency
+- Business value
+- System architecture
 - Data readiness
-- Automation feasibility
-- Risk
-- System connectivity
-
-A directional prioritization model is:
-
-**Impact × Frequency × Feasibility × Data Readiness ÷ Risk**
-
----
-
-### 3. AI Workflow Architecture
-
-A production AI system is treated as a chain of responsibilities rather than a single model call.
-
-Core layers include:
-
-- Interface
-- Orchestrator
-- Model
-- Retrieval
-- Tools
-- Rules
-- Evaluator
-- Observability
-
-The guiding principle is:
-
-> Use the least complex architecture that can reliably solve the workflow.
-
----
-
-### 4. Agent Selection
-
-The framework examines when agents are appropriate and when they introduce unnecessary complexity.
-
-The recommended progression is:
-
-Deterministic automation  
-→ Structured LLM workflow  
-→ Tool-calling workflow  
-→ Bounded agent  
-→ Multi-agent system
-
-Agents should not be introduced simply because the technology supports them.
-
----
-
-### 5. Evaluation & Production Readiness
-
-A successful demonstration is not evidence of production readiness.
-
-Evaluation should consider:
-
-- Task success
-- Accuracy
-- Groundedness
-- Tool correctness
-- Safety
+- Model evaluation
+- Security
 - Reliability
-- Cost
-- Latency
-
-Significant production failures should be converted into regression tests.
-
----
-
-### 6. Autonomy & Governance
-
-Autonomy is treated as both a technical and risk decision.
-
-The framework defines levels of system authority ranging from:
-
-**Level 0 — Answer only**
-
-to:
-
-**Level 5 — Bounded autonomous optimization**
-
-Controls include:
-
-- Least-privilege access
-- Explicit authorization
-- Human approval
-- Audit trails
-- Validation
-- Failure containment
-- Rollback
-- Periodic permission review
-
----
-
-### 7. AI Operating Model
-
-Production AI requires continuous monitoring.
-
-Key observability areas include:
-
-- Request volume
-- Successful-task rate
-- Latency
-- Failure rate
-- Model and tool usage
-- Cost
-- Human overrides
-- Evaluation performance
-- Retrieval quality
-- Policy violations
-- Business KPIs
-
----
-
-## 90-Day Implementation Framework
-
-The publication proposes a practical implementation roadmap:
-
-| Period | Primary Work | Deliverable |
-|---|---|---|
-| Days 1–15 | Discovery + workflow mapping | Baseline, process map, risk map |
-| Days 16–30 | Architecture + prototype | Target architecture + prototype |
-| Days 31–60 | Engineering + evaluation | Integrated system + test set |
-| Days 61–75 | Controls + pilot | Permissions + observability |
-| Days 76–90 | Measure + optimize | KPI report + scale plan |
-
----
-
-## AI Engineering Consulting Scorecard
-
-The framework provides an assessment model across:
-
-- Business case
-- Workflow
-- Data
-- Architecture
-- Evaluation
-- Security and control
 - Observability
-- Economics
-- Operations
+- Cost management
+- Governance
+- Human oversight
+- Operational processes
 
-The scorecard helps determine whether an AI initiative is:
+A successful AI system therefore requires more than a capable model.
 
-- Exploratory
-- Pilot-ready
-- A production candidate
-- Scale-ready
-
----
-
-## Executive Recommendations
-
-The publication concludes with five recommendations:
-
-1. Start with workflows, not technologies.
-2. Prefer the simplest reliable architecture.
-3. Make evaluation a release gate.
-4. Treat autonomy as a controlled permission.
-5. Build the operating layer from day one.
+It requires an environment in which the technology can operate reliably and deliver measurable outcomes.
 
 ---
 
-## Intended Audience
+## Key Areas
 
-This publication is intended for:
+### 1. Business Alignment
 
-- CTOs
-- CIOs
-- Operations Leaders
-- Product Leaders
-- AI Engineers
-- Technical Founders
-- Enterprise Technology Teams
-- Organizations evaluating AI adoption
+AI initiatives should begin with a clearly defined business problem.
+
+The focus should be on measurable outcomes rather than simply introducing AI technology.
+
+### 2. Technical Architecture
+
+Production systems require appropriate architecture, integration patterns, infrastructure and operational controls.
+
+### 3. Data Readiness
+
+Data quality, availability, governance and accessibility directly influence the reliability of AI applications.
+
+### 4. Evaluation
+
+AI systems need structured evaluation before and after deployment.
+
+Evaluation should consider accuracy, reliability, relevance, safety and business performance.
+
+### 5. Security
+
+AI systems introduce additional security considerations involving data, access, models, APIs and system interactions.
+
+### 6. Observability
+
+Production systems need visibility into performance, errors, latency, usage and operational health.
+
+### 7. Cost Management
+
+AI infrastructure and model usage can create significant operational costs.
+
+Production planning should therefore consider cost from the beginning.
+
+### 8. Governance
+
+Organizations need clear ownership, policies, controls and accountability around AI systems.
 
 ---
 
-## 📚 Publication
+## From Pilot to Production
 
-**The AI Production Gap: From AI Pilots to Production-Grade Systems**
+A practical transition can be viewed as:
 
-This publication examines the gap between experimenting with AI and successfully operating AI systems in production.
-
-It presents an engineering and enterprise consultancy perspective on AI adoption, production readiness, operational maturity, governance, and measurable business value.
-
-**Author:** Oyebowale Anthony  
-**Role:** AI Engineer & AI Engineering Consultant  
-**Publication:** Consulting Insight Series  
-**Date:** August 2026
----
-
-## Author
-
-**Oyebowale Anthony**
-
-AI Engineer & AI Engineering Consultant
-
-This publication represents an independently authored professional consultancy perspective synthesizing AI engineering concepts, implementation patterns and public industry research.
-
----
-
-## Disclaimer
-
-This publication provides general strategic and technical guidance. It does not constitute legal, financial, regulatory, cybersecurity or other professional advice for a specific organization.
-
-© 2026 Oyebowale Anthony. All rights reserved.
+```text
+Idea
+  ↓
+Use Case Definition
+  ↓
+Prototype
+  ↓
+Evaluation
+  ↓
+Production Readiness
+  ↓
+Deployment
+  ↓
+Monitoring
+  ↓
+Continuous Improvement

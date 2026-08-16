@@ -1,11 +1,23 @@
 # The AI Production Gap
 
+[![GitHub repository](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/macapoly/AI-PRODUCTION-GAP)
+[![Publication](https://img.shields.io/badge/Publication-August%202026-blue)](./publication/AI-Production-Gap.pdf)
+[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/macapoly/AI-PRODUCTION-GAP)
+[![AI Engineering](https://img.shields.io/badge/Focus-AI%20Engineering-purple)](./README.md)
+
 ## From AI Pilots to Production-Grade Systems
 
 An AI engineering and enterprise consultancy framework for selecting, designing, evaluating, deploying and governing AI systems that create measurable business value.
 
 ---
 
+## Quick Links
+
+- 📄 [Read the Full Publication](./publication/AI-Production-Gap.pdf)
+- 🧩 [Production Readiness Framework](./frameworks/production-readiness-framework.md)
+- 📊 [Framework Diagram](./diagrams/ai-production-gap-framework.png)
+- 📚 [Sources & References](./references/sources.md)
+  
 ## Overview
 
 The AI Production Gap examines the difference between experimenting with AI and successfully operating AI systems in production.
@@ -102,3 +114,12 @@ Deployment
 Monitoring
   ↓
 Continuous Improvement
+
+## Project Resources
+
+| Resource | Description |
+|---|---|
+| [Full Publication](./publication/AI-Production-Gap.pdf) | Complete consulting publication |
+| [Production Readiness Framework](./frameworks/production-readiness-framework.md) | Structured assessment framework |
+| [Framework Diagram](./diagrams/ai-production-gap-framework.png) | Visual representation of the framework |
+| [Sources & References](./references/sources.md) | Supporting references and notes |

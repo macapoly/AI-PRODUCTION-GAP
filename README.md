@@ -1,4 +1,9 @@
 # The AI Production Gap
+## 📄 Full Publication
+
+Read the complete publication:
+
+[Download / View the AI Production Gap](./publication/AI-Production-Gap.pdf)
 
 ## From AI Pilots to Production-Grade Systems
 

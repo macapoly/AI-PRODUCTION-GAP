@@ -249,19 +249,18 @@ This publication is intended for:
 
 ---
 
-## Publication
+## 📚 Publication
 
-The complete publication is available in:
+**The AI Production Gap: From AI Pilots to Production-Grade Systems**
 
-`publication/The_AI_Production_Gap.pdf`
+This publication examines the gap between experimenting with AI and successfully operating AI systems in production.
 
-The document can be used as:
+It presents an engineering and enterprise consultancy perspective on AI adoption, production readiness, operational maturity, governance, and measurable business value.
 
-- An executive discussion document
-- An AI discovery checklist
-- An architecture review aid
-- A starting point for an AI engineering consulting engagement
-
+**Author:** Oyebowale Anthony  
+**Role:** AI Engineer & AI Engineering Consultant  
+**Publication:** Consulting Insight Series  
+**Date:** August 2026
 ---
 
 ## Author
